@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  dllmain.cpp
+F:\PM\Prom\lab3repos\CalcGUI\c_evaluator\dllmain.cpp(18,8): warning C4552: '-': result of expression not used
+F:\PM\Prom\lab3repos\CalcGUI\c_evaluator\dllmain.cpp(23,8): warning C4552: '-': result of expression not used
+F:\PM\Prom\lab3repos\CalcGUI\c_evaluator\dllmain.cpp(19): error C4716: 'Subtract': must return a value
+F:\PM\Prom\lab3repos\CalcGUI\c_evaluator\dllmain.cpp(24): error C4716: 'SubtractInt': must return a value

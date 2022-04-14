@@ -1,0 +1,7 @@
+﻿  dllmain.cpp
+     Creating library F:\PM\Prom\lab3repos\CalcGUI\x64\Release\c_evaluator.lib and object F:\PM\Prom\lab3repos\CalcGUI\x64\Release\c_evaluator.exp
+  Generating code
+  Previous IOBJ not found, fall back to full compilation.
+  All 9 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  c_evaluator.vcxproj -> F:\PM\Prom\lab3repos\CalcGUI\x64\Release\c_evaluator.dll
