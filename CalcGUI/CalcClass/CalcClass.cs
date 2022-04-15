@@ -7,22 +7,25 @@ namespace Cc
     public class CalcClass
     {
 
-        [DllImport("..\\..\\..\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("..\\..\\..\\x64\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern Int64 SumInt(Int64 left, Int64 right);
-        [DllImport("..\\..\\..\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
+        
+        [DllImport("..\\..\\..\\x64\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern Int64 SubtractInt(Int64 left, Int64 right);
-        [DllImport("..\\..\\..\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("..\\..\\..\\x64\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern Int64 MultiplyInt(Int64 left, Int64 right);
-        [DllImport("..\\..\\..\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("..\\..\\..\\x64\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern Int64 DivideInt(Int64 left, Int64 right);
-        [DllImport("..\\..\\..\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("..\\..\\..\\x64\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern Int64 FactorialInt(Int64 left);
-        [DllImport("..\\..\\..\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("..\\..\\..\\x64\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern Int64 ModInt(Int64 left, Int64 right);
-        [DllImport("..\\..\\..\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("..\\..\\..\\x64\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern Int64 AbsInt(Int64 x);        
-        [DllImport("..\\..\\..\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("..\\..\\..\\x64\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern Int64 IAbsInt(Int64 x);
+        
+
         /// <summary>
         /// Функція складання числа а і b
         /// </summary>
@@ -33,6 +36,7 @@ namespace Cc
         {
             return (int)SumInt(a, b);
         }
+        
         /// <summary>
         /// функція віднімання чисел а і b
         /// </summary>
@@ -91,7 +95,7 @@ namespace Cc
         {
             return (int)IAbsInt(a);
         }
-
+        
 
     }
 }
