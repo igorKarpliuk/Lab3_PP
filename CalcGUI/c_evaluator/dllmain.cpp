@@ -23,12 +23,12 @@ extern "C" {
 		return left - right;
 	}
 
-	int64_t __declspec(dllexport) MultiplyInt(int64_t left, int64_t right)
+	double __declspec(dllexport) Multiply(double left, double right)
 	{
 		return left * right;
 	}
 
-	double __declspec(dllexport) Multiply(double left, double right)
+	int64_t __declspec(dllexport) MultiplyInt(int64_t left, int64_t right)
 	{
 		return left * right;
 	}
@@ -37,8 +37,13 @@ extern "C" {
 	{
 		return left / right;
 	}
+
+	int64_t __declspec(dllexport) DivideInt(int64_t left, int64_t right)
+	{
+		return left / right;
+	}
 	
-	int64_t __declspec(dllexport) Mod(int64_t left, int64_t right)
+	int64_t __declspec(dllexport) ModInt(int64_t left, int64_t right)
 	{
 		return left % right;
 	}
@@ -50,6 +55,25 @@ extern "C" {
 			res *= left;
 		}
 		return res;
+	}
+
+	int64_t __declspec(dllexport) FactorialInt(int64_t left)
+	{
+		int64_t res = 1;
+		for (int64_t i = left; i > 0; i--) {
+			res *= left;
+		}
+		return res;
+	}
+
+	int64_t __declspec(dllexport) AbsInt(int64_t x)
+	{
+		return +x;
+	}
+
+	int64_t __declspec(dllexport) IAbsInt(int64_t x)
+	{
+		return -x;
 	}
 
 }
