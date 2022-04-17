@@ -7,22 +7,22 @@ namespace Cc
     public class CalcClass
     {
 
-        [DllImport("..\\..\\..\\x64\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern Int64 SumInt(Int64 left, Int64 right);
         
-        [DllImport("..\\..\\..\\x64\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern Int64 SubtractInt(Int64 left, Int64 right);
-        [DllImport("..\\..\\..\\x64\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern Int64 MultiplyInt(Int64 left, Int64 right);
-        [DllImport("..\\..\\..\\x64\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern Int64 DivideInt(Int64 left, Int64 right);
-        [DllImport("..\\..\\..\\x64\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern Int64 FactorialInt(Int64 left);
-        [DllImport("..\\..\\..\\x64\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern Int64 ModInt(Int64 left, Int64 right);
-        [DllImport("..\\..\\..\\x64\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern Int64 AbsInt(Int64 x);        
-        [DllImport("..\\..\\..\\x64\\Release\\c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
+        [DllImport("c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]
         static extern Int64 IAbsInt(Int64 x);
         
 
