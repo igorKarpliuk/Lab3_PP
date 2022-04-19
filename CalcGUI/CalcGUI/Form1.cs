@@ -7,5 +7,10 @@ namespace CalcGUI
             InitializeComponent();
         }
 
+        private void button_Click(object sender, EventArgs e)
+        {
+            textBoxExpression.Text += ((Button)sender).Text;
+        }
+
     }
 }

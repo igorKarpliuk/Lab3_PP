@@ -4,3 +4,12 @@ D:\test\Lab3_PP\CalcGUI\AnalaizerClass\obj\Debug\AnalaizerClass.csproj.AssemblyR
 D:\test\Lab3_PP\CalcGUI\AnalaizerClass\obj\Debug\AnalaizerClass.csproj.CoreCompileInputs.cache
 D:\test\Lab3_PP\CalcGUI\AnalaizerClass\obj\Debug\AnalaizerClass.dll
 D:\test\Lab3_PP\CalcGUI\AnalaizerClass\obj\Debug\AnalaizerClass.pdb
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\bin\Debug\AnalaizerClass.dll
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\bin\Debug\AnalaizerClass.pdb
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\bin\Debug\CalcClass.dll
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\bin\Debug\CalcClass.pdb
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\obj\Debug\AnalaizerClass.csproj.AssemblyReference.cache
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\obj\Debug\AnalaizerClass.csproj.CoreCompileInputs.cache
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\obj\Debug\AnalaizerClass.csproj.CopyComplete
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\obj\Debug\AnalaizerClass.dll
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\obj\Debug\AnalaizerClass.pdb

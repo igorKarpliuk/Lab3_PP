@@ -1,26 +1,67 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "AnalaizerClass/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "CalcClass": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AnalaizerClass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AnalaizerClass.dll": {}
+        }
+      },
+      "CalcClass/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CalcClass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalcClass.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AnalaizerClass/1.0.0": {
+      "type": "project",
+      "path": "../AnalaizerClass/AnalaizerClass.csproj",
+      "msbuildProject": "../AnalaizerClass/AnalaizerClass.csproj"
+    },
+    "CalcClass/1.0.0": {
+      "type": "project",
+      "path": "../CalcClass/CalcClass.csproj",
+      "msbuildProject": "../CalcClass/CalcClass.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "AnalaizerClass >= 1.0.0",
+      "CalcClass >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Віка\\.nuget\\packages\\": {}
+    "C:\\Users\\Yuri\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\lab_3_final\\CalcGUI\\CalcGUI\\CalcGUI.csproj",
+      "projectUniqueName": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcGUI\\CalcGUI.csproj",
       "projectName": "CalcGUI",
-      "projectPath": "D:\\Users\\lab_3_final\\CalcGUI\\CalcGUI\\CalcGUI.csproj",
-      "packagesPath": "C:\\Users\\Віка\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\lab_3_final\\CalcGUI\\CalcGUI\\obj\\",
+      "projectPath": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcGUI\\CalcGUI.csproj",
+      "packagesPath": "C:\\Users\\Yuri\\.nuget\\packages\\",
+      "outputPath": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcGUI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Віка\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Yuri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +74,14 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\PM\\Prom\\lab3repos\\CalcGUI\\AnalaizerClass\\AnalaizerClass.csproj": {
+              "projectPath": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\AnalaizerClass\\AnalaizerClass.csproj"
+            },
+            "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcClass\\CalcClass.csproj": {
+              "projectPath": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcClass\\CalcClass.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -63,7 +111,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
