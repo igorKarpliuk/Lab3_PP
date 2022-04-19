@@ -6,5 +6,6 @@ namespace CalcGUI
         {
             InitializeComponent();
         }
+
     }
 }
