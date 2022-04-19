@@ -1,0 +1,17 @@
+D:\Users\lab_3\CalcGUI\CalcGUI\bin\Debug\net6.0-windows\CalcGUI.exe
+D:\Users\lab_3\CalcGUI\CalcGUI\bin\Debug\net6.0-windows\CalcGUI.deps.json
+D:\Users\lab_3\CalcGUI\CalcGUI\bin\Debug\net6.0-windows\CalcGUI.runtimeconfig.json
+D:\Users\lab_3\CalcGUI\CalcGUI\bin\Debug\net6.0-windows\CalcGUI.dll
+D:\Users\lab_3\CalcGUI\CalcGUI\bin\Debug\net6.0-windows\CalcGUI.pdb
+D:\Users\lab_3\CalcGUI\CalcGUI\obj\Debug\net6.0-windows\CalcGUI.csproj.AssemblyReference.cache
+D:\Users\lab_3\CalcGUI\CalcGUI\obj\Debug\net6.0-windows\CalcGUI.Form1.resources
+D:\Users\lab_3\CalcGUI\CalcGUI\obj\Debug\net6.0-windows\CalcGUI.csproj.GenerateResource.cache
+D:\Users\lab_3\CalcGUI\CalcGUI\obj\Debug\net6.0-windows\CalcGUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\lab_3\CalcGUI\CalcGUI\obj\Debug\net6.0-windows\CalcGUI.AssemblyInfoInputs.cache
+D:\Users\lab_3\CalcGUI\CalcGUI\obj\Debug\net6.0-windows\CalcGUI.AssemblyInfo.cs
+D:\Users\lab_3\CalcGUI\CalcGUI\obj\Debug\net6.0-windows\CalcGUI.csproj.CoreCompileInputs.cache
+D:\Users\lab_3\CalcGUI\CalcGUI\obj\Debug\net6.0-windows\CalcGUI.dll
+D:\Users\lab_3\CalcGUI\CalcGUI\obj\Debug\net6.0-windows\refint\CalcGUI.dll
+D:\Users\lab_3\CalcGUI\CalcGUI\obj\Debug\net6.0-windows\CalcGUI.pdb
+D:\Users\lab_3\CalcGUI\CalcGUI\obj\Debug\net6.0-windows\CalcGUI.genruntimeconfig.cache
+D:\Users\lab_3\CalcGUI\CalcGUI\obj\Debug\net6.0-windows\ref\CalcGUI.dll
