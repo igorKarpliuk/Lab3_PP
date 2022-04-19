@@ -1,0 +1,6 @@
+D:\test\Lab3_PP\CalcGUI\AnalaizerClass\bin\Debug\AnalaizerClass.dll
+D:\test\Lab3_PP\CalcGUI\AnalaizerClass\bin\Debug\AnalaizerClass.pdb
+D:\test\Lab3_PP\CalcGUI\AnalaizerClass\obj\Debug\AnalaizerClass.csproj.AssemblyReference.cache
+D:\test\Lab3_PP\CalcGUI\AnalaizerClass\obj\Debug\AnalaizerClass.csproj.CoreCompileInputs.cache
+D:\test\Lab3_PP\CalcGUI\AnalaizerClass\obj\Debug\AnalaizerClass.dll
+D:\test\Lab3_PP\CalcGUI\AnalaizerClass\obj\Debug\AnalaizerClass.pdb

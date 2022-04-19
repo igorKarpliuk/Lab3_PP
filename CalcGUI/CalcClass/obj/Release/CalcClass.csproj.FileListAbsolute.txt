@@ -4,3 +4,9 @@ F:\PM\Prom\lab3repos\CalcGUI\CalcClass\obj\Release\CalcClass.csproj.AssemblyRefe
 F:\PM\Prom\lab3repos\CalcGUI\CalcClass\obj\Release\CalcClass.csproj.CoreCompileInputs.cache
 F:\PM\Prom\lab3repos\CalcGUI\CalcClass\obj\Release\CalcClass.dll
 F:\PM\Prom\lab3repos\CalcGUI\CalcClass\obj\Release\CalcClass.pdb
+D:\Semestr8\prpp3\CalcGUI\CalcClass\bin\Release\CalcClass.dll
+D:\Semestr8\prpp3\CalcGUI\CalcClass\bin\Release\CalcClass.pdb
+D:\Semestr8\prpp3\CalcGUI\CalcClass\obj\Release\CalcClass.csproj.AssemblyReference.cache
+D:\Semestr8\prpp3\CalcGUI\CalcClass\obj\Release\CalcClass.csproj.CoreCompileInputs.cache
+D:\Semestr8\prpp3\CalcGUI\CalcClass\obj\Release\CalcClass.dll
+D:\Semestr8\prpp3\CalcGUI\CalcClass\obj\Release\CalcClass.pdb
