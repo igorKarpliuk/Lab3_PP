@@ -1,0 +1,6 @@
+F:\PM\Prom\lab3repos\CalcGUI\CalcClass\bin\Release\CalcClass.dll
+F:\PM\Prom\lab3repos\CalcGUI\CalcClass\bin\Release\CalcClass.pdb
+F:\PM\Prom\lab3repos\CalcGUI\CalcClass\obj\Release\CalcClass.csproj.AssemblyReference.cache
+F:\PM\Prom\lab3repos\CalcGUI\CalcClass\obj\Release\CalcClass.csproj.CoreCompileInputs.cache
+F:\PM\Prom\lab3repos\CalcGUI\CalcClass\obj\Release\CalcClass.dll
+F:\PM\Prom\lab3repos\CalcGUI\CalcClass\obj\Release\CalcClass.pdb

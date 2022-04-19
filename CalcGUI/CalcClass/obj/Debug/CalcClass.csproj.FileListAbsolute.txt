@@ -1,0 +1,11 @@
+D:\8_term\prpp\lab3\CalcGUI\CalcClass\bin\Debug\CalcClass.dll
+D:\8_term\prpp\lab3\CalcGUI\CalcClass\bin\Debug\CalcClass.pdb
+D:\8_term\prpp\lab3\CalcGUI\CalcClass\obj\Debug\CalcClass.csprojAssemblyReference.cache
+D:\8_term\prpp\lab3\CalcGUI\CalcClass\obj\Debug\CalcClass.dll
+D:\8_term\prpp\lab3\CalcGUI\CalcClass\obj\Debug\CalcClass.pdb
+F:\PM\Prom\lab3repos\CalcGUI\CalcClass\bin\Debug\CalcClass.dll
+F:\PM\Prom\lab3repos\CalcGUI\CalcClass\bin\Debug\CalcClass.pdb
+F:\PM\Prom\lab3repos\CalcGUI\CalcClass\obj\Debug\CalcClass.csproj.AssemblyReference.cache
+F:\PM\Prom\lab3repos\CalcGUI\CalcClass\obj\Debug\CalcClass.csproj.CoreCompileInputs.cache
+F:\PM\Prom\lab3repos\CalcGUI\CalcClass\obj\Debug\CalcClass.dll
+F:\PM\Prom\lab3repos\CalcGUI\CalcClass\obj\Debug\CalcClass.pdb
