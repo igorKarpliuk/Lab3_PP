@@ -8,24 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Yuri\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcGUI\\CalcGUI.csproj",
+      "projectUniqueName": "D:\\Semestr8\\prpp3\\CalcGUI\\CalcGUI\\CalcGUI.csproj",
       "projectName": "CalcGUI",
-      "projectPath": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcGUI\\CalcGUI.csproj",
-      "packagesPath": "C:\\Users\\Yuri\\.nuget\\packages\\",
-      "outputPath": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcGUI\\obj\\",
+      "projectPath": "D:\\Semestr8\\prpp3\\CalcGUI\\CalcGUI\\CalcGUI.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\Semestr8\\prpp3\\CalcGUI\\CalcGUI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Yuri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -68,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

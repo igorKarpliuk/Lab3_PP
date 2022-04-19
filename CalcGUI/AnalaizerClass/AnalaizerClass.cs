@@ -299,5 +299,136 @@ namespace AnalaizerClass
             }
             return expression_with_spaces;
         }
+
+        public bool Oper (char ch)
+        {
+            string operand = "+-/*m()";
+            //for (int i = 0; i < operand.Length; i++)
+            //{
+            //    if (ch == operand[i])
+            //    {
+            //        return true;
+            //    }
+            //}
+            //return false;
+            return operand.Contains(ch);
+        }
+
+        private byte orderOfOperations(string line)
+        {
+            switch (line[0])
+            {
+                case '(': return 0;
+                case ')': return 1;
+                case '+': return 2;
+                case '-': return 3;
+                case '*': return 4;
+                case '/': return 4;
+                case 'm': return 5;
+                default: return 6;
+            }
+        }
+
+        public string PolishInverse (string str)
+        {
+            string[] temp = str.Split(' ');
+            string output = "";
+            Stack<string> stack = new Stack<string>();
+            for (int i = 0; i < temp.Length; i++)
+            {
+                if(Int64.TryParse(temp[i], out _))
+                {
+                    output += temp[i] + ' ';
+                    continue;
+                }
+                if(Oper(temp[i][0]))
+                {
+                    if(temp[i][0] == '(')
+                    {
+                        stack.Push(temp[i]);
+                    }
+                    else if(temp[i][0] == ')')
+                    {
+                        string s = stack.Pop();
+                        while(s[0] != '(')
+                        {
+                            output += s + ' ';
+                            s = stack.Pop();
+                        }
+                    }
+                    else
+                    {
+                        if(stack.Count > 0)
+                        {
+                            if(orderOfOperations(stack.Peek()) >= orderOfOperations(temp[i]))
+                            {
+                                output += stack.Pop() + ' ';
+                            }
+                        }
+                        stack.Push(temp[i]);
+                    }
+                }
+            }
+            while(stack.Count > 0)
+            {
+                output += stack.Pop() + ' ';
+            }
+            if (output.EndsWith(" "))
+            {
+                output = output.Remove(output.Length - 1);
+            }
+            if (output.StartsWith(" "))
+            {
+                output = output.Remove(0, 1);
+            }
+            return output;
+        }
+        public string RunEstimate(string str)
+        {
+            Int64 result = 0;
+            string[] temp = str.Split(' ');
+            Stack<Int64> stack = new Stack<Int64>();
+            for (int i = 0; i < temp.Length; i++)
+            {
+                if(Int64.TryParse(temp[i], out Int64 num))
+                {
+                    stack.Push(num);
+                }
+                else if(Oper(temp[i][0]))
+                {
+                    Int64 right = stack.Pop();
+                    Int64 left = stack.Pop();
+                    switch (temp[i][0])
+                    {
+                        case '+': result = Cc.CalcClass.Add(left, right);
+                            break;
+                        case '-': result = Cc.CalcClass.Sub(left, right);
+                            break;
+                        case '*':
+                            result = Cc.CalcClass.Mult(left, right);
+                            break;
+                        case '/':
+                            if(right == 0)
+                            {
+                                lastError = "Error 09: Division by zero!";
+                                throw new Exception(lastError);
+                            }
+                            result = Cc.CalcClass.Div(left, right);
+                            break;
+                        case 'm': result = Cc.CalcClass.Mod(left, right);
+                            break;
+                    }
+                    stack.Push(result);
+                }
+            }
+            return stack.Peek().ToString();
+        }
+        public string Estimate()
+        {
+            CheckCurrency();
+            string str = Format();
+            string polska = PolishInverse(str);
+            return RunEstimate(polska);
+        }
     }
 }

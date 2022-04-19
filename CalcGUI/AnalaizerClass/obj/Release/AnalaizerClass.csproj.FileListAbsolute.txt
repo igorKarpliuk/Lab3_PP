@@ -1,0 +1,9 @@
+D:\Semestr8\prpp3\CalcGUI\AnalaizerClass\bin\Release\AnalaizerClass.dll
+D:\Semestr8\prpp3\CalcGUI\AnalaizerClass\bin\Release\AnalaizerClass.pdb
+D:\Semestr8\prpp3\CalcGUI\AnalaizerClass\bin\Release\CalcClass.dll
+D:\Semestr8\prpp3\CalcGUI\AnalaizerClass\bin\Release\CalcClass.pdb
+D:\Semestr8\prpp3\CalcGUI\AnalaizerClass\obj\Release\AnalaizerClass.csproj.AssemblyReference.cache
+D:\Semestr8\prpp3\CalcGUI\AnalaizerClass\obj\Release\AnalaizerClass.csproj.CoreCompileInputs.cache
+D:\Semestr8\prpp3\CalcGUI\AnalaizerClass\obj\Release\AnalaizerClass.csproj.CopyComplete
+D:\Semestr8\prpp3\CalcGUI\AnalaizerClass\obj\Release\AnalaizerClass.dll
+D:\Semestr8\prpp3\CalcGUI\AnalaizerClass\obj\Release\AnalaizerClass.pdb
