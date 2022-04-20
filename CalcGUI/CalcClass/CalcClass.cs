@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 
 namespace Cc
 {
-    public class CalcClass
+    public static class CalcClass
     {
 
         [DllImport("c_evaluator.dll", CallingConvention = CallingConvention.Cdecl)]

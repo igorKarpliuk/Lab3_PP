@@ -380,6 +380,7 @@
             this.buttonPlusMinus.TabIndex = 10;
             this.buttonPlusMinus.Text = "+/-";
             this.buttonPlusMinus.UseVisualStyleBackColor = false;
+            this.buttonPlusMinus.Click += new System.EventHandler(this.buttonPlusMinus_Click);
             // 
             // buttonMod
             // 
@@ -496,6 +497,7 @@
             this.buttonMR.TabIndex = 0;
             this.buttonMR.Text = "MR";
             this.buttonMR.UseVisualStyleBackColor = false;
+            this.buttonMR.Click += new System.EventHandler(this.buttonMR_Click);
             // 
             // buttonMPlus
             // 
@@ -511,6 +513,7 @@
             this.buttonMPlus.TabIndex = 1;
             this.buttonMPlus.Text = "M+";
             this.buttonMPlus.UseVisualStyleBackColor = false;
+            this.buttonMPlus.Click += new System.EventHandler(this.buttonMPlus_Click);
             // 
             // buttonMC
             // 
@@ -526,6 +529,7 @@
             this.buttonMC.TabIndex = 2;
             this.buttonMC.Text = "MC";
             this.buttonMC.UseVisualStyleBackColor = false;
+            this.buttonMC.Click += new System.EventHandler(this.buttonMC_Click);
             // 
             // buttonEqual
             // 
@@ -541,6 +545,7 @@
             this.buttonEqual.TabIndex = 3;
             this.buttonEqual.Text = "=";
             this.buttonEqual.UseVisualStyleBackColor = false;
+            this.buttonEqual.Click += new System.EventHandler(this.buttonEqual_Click);
             // 
             // groupBoxEdit
             // 
@@ -625,6 +630,7 @@
             this.buttonBackspace.TabIndex = 2;
             this.buttonBackspace.Text = "Backspace";
             this.buttonBackspace.UseVisualStyleBackColor = false;
+            this.buttonBackspace.Click += new System.EventHandler(this.buttonBackspace_Click);
             // 
             // buttonC
             // 
@@ -640,6 +646,7 @@
             this.buttonC.TabIndex = 3;
             this.buttonC.Text = "C";
             this.buttonC.UseVisualStyleBackColor = false;
+            this.buttonC.Click += new System.EventHandler(this.buttonC_Click);
             // 
             // tableLayoutPanelLowerRight
             // 
@@ -684,8 +691,10 @@
             this.Controls.Add(this.tableLayoutPanelBase);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.Name = "Form1";
             this.Text = "Доброго вечора, ми з України!";
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.tableLayoutPanelBase.ResumeLayout(false);
             this.tableLayoutPanelUpper.ResumeLayout(false);
             this.tableLayoutPanelUpper.PerformLayout();
