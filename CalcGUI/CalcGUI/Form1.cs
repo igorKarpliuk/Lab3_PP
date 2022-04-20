@@ -5,7 +5,6 @@ namespace CalcGUI
     public partial class Form1 : Form
     {
         Int64 buffer = 0;
-        DateTime pmtimer = new DateTime();
 
         public Form1()
         {
@@ -26,7 +25,7 @@ namespace CalcGUI
             string[] argum = Environment.GetCommandLineArgs();
             for (int i = 1; i < argum.Length; i++)
             {
-                expression += argum[i] + " ";
+                expression += argum[i];
             }
             Console.WriteLine(expression);
 
@@ -89,34 +88,23 @@ namespace CalcGUI
 
         private void buttonPlusMinus_Click(object sender, EventArgs e)
         {
-            DateTime tmp = DateTime.Now;
-            if (pmtimer.Ticks != 0)
+            if (textBoxExpression.Text.Length == 0)
             {
-                if(tmp.Ticks - pmtimer.Ticks < 3)
-                {
-                    switch (textBoxExpression.Text.Last()) {
-                        case 'p':
-                            textBoxExpression.Text = textBoxExpression.Text.Remove(textBoxExpression.Text.Length - 1) + 'm';
-                            break;
-                        case 'm':
-                            textBoxExpression.Text = textBoxExpression.Text.Remove(textBoxExpression.Text.Length - 1) + 'p';
-                            break;
-                        default:
-                            textBoxExpression.Text += 'p';
-                            break;
-                    }
-                }
-                else
-                {
-                    textBoxResult.Text = "FUCK YOU!";
-                }
+                textBoxExpression.Text += 'm';
+                return;
+            }
 
+            switch (textBoxExpression.Text.Last()) {
+                case 'p':
+                    textBoxExpression.Text = textBoxExpression.Text.Remove(textBoxExpression.Text.Length - 1) + 'm';
+                    break;
+                case 'm':
+                    textBoxExpression.Text = textBoxExpression.Text.Remove(textBoxExpression.Text.Length - 1) + 'p';
+                    break;
+                default:
+                    textBoxExpression.Text += 'm';
+                    break;
             }
-            else
-            {
-                textBoxExpression.Text += 'p';
-            }
-            pmtimer = tmp;
         }
 
         private void buttonEqual_Click(object sender, EventArgs e)

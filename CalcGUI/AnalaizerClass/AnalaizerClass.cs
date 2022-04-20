@@ -262,7 +262,7 @@ namespace AnalaizerClass
 
                 if(current[0]=='(')
                 {
-                    if (!(Int64.TryParse(elements[i + 1], out _)) && (elements[i + 1][0] != '(') && (elements[i + 1][0] != '-'))
+                    if (!(Int64.TryParse(elements[i + 1], out _)) && (elements[i + 1][0] != '('))
                     {
                         lastError = "Error 03: Incorrect syntax!";
                         throw new Exception(lastError);
