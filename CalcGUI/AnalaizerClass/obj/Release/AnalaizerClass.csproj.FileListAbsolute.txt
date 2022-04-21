@@ -7,3 +7,12 @@ D:\Semestr8\prpp3\CalcGUI\AnalaizerClass\obj\Release\AnalaizerClass.csproj.CoreC
 D:\Semestr8\prpp3\CalcGUI\AnalaizerClass\obj\Release\AnalaizerClass.csproj.CopyComplete
 D:\Semestr8\prpp3\CalcGUI\AnalaizerClass\obj\Release\AnalaizerClass.dll
 D:\Semestr8\prpp3\CalcGUI\AnalaizerClass\obj\Release\AnalaizerClass.pdb
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\bin\Release\AnalaizerClass.dll
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\bin\Release\AnalaizerClass.pdb
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\bin\Release\CalcClass.dll
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\bin\Release\CalcClass.pdb
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\obj\Release\AnalaizerClass.csproj.AssemblyReference.cache
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\obj\Release\AnalaizerClass.csproj.CoreCompileInputs.cache
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\obj\Release\AnalaizerClass.csproj.CopyComplete
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\obj\Release\AnalaizerClass.dll
+F:\PM\Prom\lab3repos\CalcGUI\AnalaizerClass\obj\Release\AnalaizerClass.pdb
