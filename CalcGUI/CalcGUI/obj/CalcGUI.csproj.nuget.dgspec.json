@@ -1,20 +1,58 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\lab_3_final\\CalcGUI\\CalcGUI\\CalcGUI.csproj": {}
+    "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcGUI\\CalcGUI.csproj": {}
   },
   "projects": {
-    "D:\\Users\\lab_3_final\\CalcGUI\\CalcGUI\\CalcGUI.csproj": {
+    "F:\\PM\\Prom\\lab3repos\\CalcGUI\\AnalaizerClass\\AnalaizerClass.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\AnalaizerClass\\AnalaizerClass.csproj",
+        "projectName": "AnalaizerClass",
+        "projectPath": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\AnalaizerClass\\AnalaizerClass.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcClass\\CalcClass.csproj": {
+                "projectPath": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcClass\\CalcClass.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcClass\\CalcClass.csproj": {
+      "restore": {
+        "projectUniqueName": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcClass\\CalcClass.csproj",
+        "projectName": "CalcClass",
+        "projectPath": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcClass\\CalcClass.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcGUI\\CalcGUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\lab_3_final\\CalcGUI\\CalcGUI\\CalcGUI.csproj",
+        "projectUniqueName": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcGUI\\CalcGUI.csproj",
         "projectName": "CalcGUI",
-        "projectPath": "D:\\Users\\lab_3_final\\CalcGUI\\CalcGUI\\CalcGUI.csproj",
-        "packagesPath": "C:\\Users\\Віка\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\lab_3_final\\CalcGUI\\CalcGUI\\obj\\",
+        "projectPath": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcGUI\\CalcGUI.csproj",
+        "packagesPath": "C:\\Users\\Yuri\\.nuget\\packages\\",
+        "outputPath": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcGUI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Віка\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yuri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +65,14 @@
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\PM\\Prom\\lab3repos\\CalcGUI\\AnalaizerClass\\AnalaizerClass.csproj": {
+                "projectPath": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\AnalaizerClass\\AnalaizerClass.csproj"
+              },
+              "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcClass\\CalcClass.csproj": {
+                "projectPath": "F:\\PM\\Prom\\lab3repos\\CalcGUI\\CalcClass\\CalcClass.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -57,7 +102,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
