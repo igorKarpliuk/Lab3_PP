@@ -199,6 +199,10 @@ namespace AnalaizerClass
             {
                 expression_with_spaces = expression_with_spaces.Remove(expression_with_spaces.Length - 1);
             }
+            if (expression_with_spaces.StartsWith(" "))
+            {
+                expression_with_spaces = expression_with_spaces.Remove(0, 1);
+            }
             return expression_with_spaces;
         }
 

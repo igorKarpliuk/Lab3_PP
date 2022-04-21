@@ -59,7 +59,8 @@ namespace CalcGUI
                     return;
                 }
             }
-            textBoxExpression.Text = textBoxExpression.Text.Remove(textBoxExpression.Text.Length - 1);
+            if(textBoxExpression.Text.Length > 0)
+                textBoxExpression.Text = textBoxExpression.Text.Remove(textBoxExpression.Text.Length - 1);
         }
 
         private void buttonC_Click(object sender, EventArgs e)
